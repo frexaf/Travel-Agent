@@ -52,7 +52,7 @@ body {
 }
 .navbar .navbar-brand img {
   display: inline-block;
-  max-width: 154px;
+  max-width: 9.62rem;
 }
 .navbar .nav-link {
   color: var(--Dark-color);
@@ -87,7 +87,7 @@ body {
   border: none;
   background: #f5f8fb;
   border-radius: 10px;
-  padding: 0.6rem 0.75rem;
+  /* padding: 0.6rem 0.75rem; */
   font-size: 1.3rem;
   color: #018bc7;
   transition: all 0.3s ease;
@@ -606,14 +606,7 @@ body {
   border: 2px solid var(--White-color);
   color: var(--White-color);
 }
-@media screen and (max-width: 810px) {
-  .testimonials-section h2 {
-    max-width: 100%;
-  }
-  .testimonials-section .descriptions {
-    max-width: 100%;
-  }
-}
+
 /* ~~~~~~~~~~ Testimonials End ~~~~~~~~~~ */
 
 /* ~~~~~~~~~~ FAQ Start ~~~~~~~~~~ */
@@ -649,7 +642,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5)),
     url("img/julie-romaniuk-vMEDQ0FW4lY-unsplash.jpg");
   background-attachment: fixed;
   padding: 120px 0;
